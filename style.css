@@ -13,7 +13,7 @@ font-family: 'Space Mono', monospace;
 }
 
 .img {
-    width: 300px;
+    width: 500px;
 }
 
 h1 {
@@ -53,4 +53,8 @@ p {
     .btn {
         margin: 30px 10px;
     }
+    .img {
+        width: 300px;
+    }
+
 }
