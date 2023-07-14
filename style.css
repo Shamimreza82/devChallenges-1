@@ -1,3 +1,8 @@
+
+body {
+font-family: 'Space Mono', monospace;
+}
+
 .container {
     height: 100vh;
     display: flex;
@@ -12,12 +17,40 @@
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 50px;
+    margin-left: 5px;
+}
+
+.btn {
+    padding: 15px 30px;
+    background: var(--gray-1, #333);
+    color: #FFF;
+    border: none;
+    margin-top: 30px;
+}
+
+p {
+    color: var(--gray-2, #4F4F4F);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 
 @media screen and (max-width:576px) {
     .container {
         flex-direction: column;
+    }
+
+    h1 {
+        margin: 0 10px;
+    }
+
+    p {
+        margin: 30px 10px;
+    }
+    .btn {
+        margin: 30px 10px;
     }
 }
