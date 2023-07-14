@@ -1,0 +1,23 @@
+.container {
+    height: 100vh;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+}
+
+.img {
+    width: 300px;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+
+@media screen and (max-width:576px) {
+    .container {
+        flex-direction: column;
+    }
+}
