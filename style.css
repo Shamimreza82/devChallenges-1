@@ -54,7 +54,12 @@ p {
         margin: 30px 10px;
     }
     .img {
-        width: 300px;
+        width: 90%;
+        margin-top: 300px;
+        margin-left: 15px;
     }
 
+    .container h1 {
+       font-size: 30px;
+    }
 }
